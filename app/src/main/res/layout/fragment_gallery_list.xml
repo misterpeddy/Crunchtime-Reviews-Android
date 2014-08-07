@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MyActivity$PlaceholderFragment">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="course"
+        android:id="@+id/course_name"
+        android:textColor="#AAFFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@xml/light_black_background" />
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/course_name"
+        android:layout_margin="30dp"
+        android:id="@+id/videoList">
+
+
+        </ExpandableListView>
+
+</RelativeLayout>

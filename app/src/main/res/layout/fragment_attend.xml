@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- <include layout="@layout/session_row"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10sp"
+        android:text="Sign up to Attend"
+        android:fontFamily="sans-serif-thin"
+        android:id="@+id/material" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:id="@+id/uva_id"
+        android:fontFamily="sans-serif-light"
+        android:gravity="top"
+        android:textColorHint="#55000000"
+        android:textStyle="italic"
+        android:inputType="text"
+        android:background="#11FFFFFF"
+        android:hint="UVa ID"/>
+
+
+    <Button
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_gravity="center"
+        android:gravity="top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        android:text="Attend"
+        android:textColor="#88FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic"
+        android:background="@xml/light_black_background_no_padding"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".GalleryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APMA 1110"
+            android:id="@+id/APMA1110"
+            android:textColor="#AA777777"
+            android:fontFamily="sans-serif-light"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:padding="40dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:onClick="goToCourse"
+            android:background="@xml/light_black_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APMA 2120"
+            android:textColor="#AAFFFFFF"
+            android:fontFamily="sans-serif-light"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:padding="40dp"
+            android:id="@+id/APMA2120"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:onClick="goToCourse"
+            android:background="@xml/light_black_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APMA 2130"
+            android:textColor="#CCFFFFFF"
+            android:fontFamily="sans-serif-light"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:padding="40dp"
+            android:id="@+id/APMA2130"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:onClick="goToCourse"
+            android:background="@xml/light_black_background" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+
+    </LinearLayout>
+</LinearLayout>
